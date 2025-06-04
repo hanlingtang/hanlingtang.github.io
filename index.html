@@ -202,21 +202,6 @@
                 animation: 3s dot_loading infinite;
                 animation-delay: 900ms;
             }
-            .reverse_color {
-                filter: grayscale(100%) blur(3px) invert(1) hue-rotate(180deg);
-            }
-            @keyframes CancelBlur {
-                0%{filter: grayscale(100%) blur(3px);}
-                50%{filter: grayscale(0%) blur(0px);}
-                100%{filter: grayscale(100%) blur(3px);}
-            }
-            .CancelBlur {animation: 1s CancelBlur}
-            @keyframes CancelBlur_Reverse {
-                0%{filter: grayscale(100%) blur(3px) invert(1) hue-rotate(180deg);}
-                50%{filter: grayscale(0%) blur(0px) invert(0) hue-rotate(0deg);}
-                100%{filter: grayscale(100%) blur(3px) invert(1) hue-rotate(180deg);}
-            }
-            .CancelBlur_Reverse {animation: 1s CancelBlur_Reverse}
         </style>
         <title>电子灵堂异常：你可能没有加载 JavaScript。</title>
     </head>
